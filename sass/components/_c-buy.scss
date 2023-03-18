@@ -1,0 +1,15 @@
+.c-buy{
+    grid-area: cta;
+
+    &__cta{
+        text-decoration: none;
+        color: $very-dar-gray;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    &__arrow{
+        margin-left: 20px;
+    }
+
+}

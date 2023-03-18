@@ -1,0 +1,25 @@
+.o-main{
+    display: grid;
+    max-width: 1440px;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas: 
+    "main"
+    "cta"
+    "image1"
+    "about"
+    "image2"
+    ;
+
+    @media screen and (min-width:768px) {
+        grid-template-columns: repeat(7,1fr);
+        grid-template-areas: 
+        "main main main main cta cta cta"
+        "main main main main cta cta cta"
+        "main main main main cta cta cta"
+        "image1 image1 about about about image2 image2"
+        "image1 image1 about about about image2 image2"
+        ;
+    }
+}

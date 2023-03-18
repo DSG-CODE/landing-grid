@@ -1,0 +1,32 @@
+.u-bg{
+    grid-area: image1;
+    min-height: 250px;
+    height: 100%;
+    background-image: url(../../images/image-about-dark.jpg);
+    background-size: cover;
+    background-position: center;
+
+    &--seccond{
+       grid-area: image2; 
+       background-image: url(../../images/image-about-light.jpg);
+    }
+}
+
+.u-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.u-paragraph{
+    line-height: 1.5;
+    margin: 1em 0 2em;
+    color:$dark-gray;
+
+    &--small{
+        margin: 1em 0 0 0;
+    }
+}
